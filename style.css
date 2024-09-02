@@ -1,0 +1,43 @@
+/* Create 3 boxes using div tags. (The values below are width by height).
+A red box that is 100 pixels by 100 pixels.
+A blue box that is 300 pixels by 400 pixels. It should also have a 2px solid red border.
+A green box that is 250 pixels by 600 pixels. It should also have a border-radius of 6px.
+Create an h1 tag that has a width of 400 pixels. Its text should be centered and its color should be white.
+Create an h2 tag that has a width of 800 pixels. Its text should be aligned to the right and its color should be orange.
+The HTML should have a background color of "rebeccapurple".
+Remove the white border that's there by default on your webpage (research challenge)
+ */
+.wrapper{
+  background-color: rebeccapurple;
+  border: none;
+}
+.rbox {
+  background-color: red;
+  width:100px;
+  height:100px;
+ }
+.bbox {
+  background-color: blue;
+  border:2px;
+  border-style: solid;
+  border-color:red;
+  width:300px;
+  height:400px;
+ }
+.gbox {
+  background-color: green;
+  width:250px;
+  height:600px;
+  border-radius: 6px;
+ }
+
+.h1{
+  width:400px;
+  color:white;
+  text-align:center;
+}
+.h2{
+  width:800px;
+  color:orange;
+  text-align: right;
+}
